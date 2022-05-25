@@ -54,7 +54,7 @@ class PDUpdater {
                 CURLOPT_CUSTOMREQUEST => "GET",
                 CURLOPT_HTTPHEADER => [
                     // "Authorization: token " . $this->authorize_token,
-                    "User-Agent: wordpress-plugin"
+                    "User-Agent: iframe-plugin"
                 ]
             ]);
 

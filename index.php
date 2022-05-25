@@ -1,12 +1,12 @@
 <?php
 /**
- * Plugin Name: WordPress Plugin
+ * Plugin Name: Iframe Plugin
  * Plugin URI: https://github.com/kml92/wordpress-plugin
  * Description: This is your starter template for your next WordPress plugin.
  * Author: FYCLABS
  * Version: 1.0.1
  *
- * Text Domain: wordpress-plugin
+ * Text Domain: iframe-plugin
  *
  * @package WordPress
  * @author FYCLabs
