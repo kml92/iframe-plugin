@@ -2,18 +2,16 @@
 /*
 	Plugin Name: Iframe Plugin
 	Description: This is for updating your Wordpress plugin.
-	Version: 1.0.0
+	Version: 1.0.1
 	Author: FYCLabs
-	Author URI: http://www.matthewray.com
+	Author URI: 
 */
-if( ! class_exists( 'Plugin_Updater' ) ){
-	include_once( plugin_dir_path( __FILE__ ) . 'updater.php' );
-}
 
-$updater = new Plugin_Updater( __FILE__ );
-$updater->set_username( 'kml91' );
-$updater->set_repository( 'iframe-plugin' );
-/*
-	$updater->authorize( 'abcdefghijk1234567890' ); // Your auth code goes here for private repos
-*/
+
+
+require_once 'plugin-updater.php';
+$updater = new PDUpdater(__FILE__);
+$updater->set_username('kml92');
+$updater->set_repository('iframe-plugin');
+// $updater->authorize('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');
 $updater->initialize();
