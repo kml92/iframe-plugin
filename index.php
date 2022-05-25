@@ -1,17 +1,15 @@
 <?php
-/**
- * Plugin Name: Iframe Plugin
- * Plugin URI: https://github.com/kml92/wordpress-plugin
- * Description: This is your starter template for your next WordPress plugin.
- * Author: FYCLABS
- * Version: 1.0.0
- *
- * Text Domain: iframe-plugin
- *
- * @package WordPress
- * @author FYCLabs
- * @since 1.0.0
- */
+/*
+Plugin Name: Iframe Plugin
+Description: We will demonstrate how to make it git-updater compatible
+Version:     1.0.0
+Author:      FYCLABS
+License:     GPL2 etc
+GitHub Plugin URI: kml92/iframe-plugin
+Primary Branch: main
+Release Asset: true
+*/
+
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
