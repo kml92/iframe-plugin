@@ -3,7 +3,6 @@
 Plugin Name: Iframe Plugin
 Plugin URI: https://github.com/kml92/iframe-plugin
 Description: We will demonstrate how to make it git-updater compatible
-Version:     1.0.0
 Author:      FYCLABS
 License:     GPL2 etc
 GitHub Plugin URI: kml92/iframe-plugin
