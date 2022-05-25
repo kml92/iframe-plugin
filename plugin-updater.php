@@ -123,8 +123,6 @@ class PDUpdater {
                 $plugin = [
                     'name' => $this->plugin['Name'],
                     'slug' => $this->basename,
-                    'requires' => '5.3',
-                    'tested' => '5.4',
                     'version' => $this->github_response['tag_name'],
                     'author' => $this->plugin['AuthorName'],
                     'author_profile' => $this->plugin['AuthorURI'],
