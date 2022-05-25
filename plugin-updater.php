@@ -96,7 +96,8 @@ class PDUpdater {
                         'url' => $this->plugin['PluginURI'],
                         'slug' => $slug,
                         'package' => $new_files,
-                        'new_version' => $github_response['tag_name']
+                        'new_version' => $this->github_response['tag_name'],
+                        'version' => $this->github_response['tag_name'],
                     ];
                     // echo '<pre>';
                     //     print_r($plugin);
