@@ -2,7 +2,7 @@
 /*
 	Plugin Name: Iframe Plugin
 	Description: This is for updating your Wordpress plugin.
-	Version: 1.0.2
+	Version: 1.0.3
 	Author: FYCLabs
 	Author URI: 
 */
